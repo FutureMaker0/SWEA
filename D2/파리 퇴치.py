@@ -20,7 +20,7 @@ for tc in range(1, T+1):
                 for n in range(j, j+M):
                     sum_val += arr[m][n]
 
-                    if sum_val > max:
-                        max = sum_val
+            if sum_val > max:
+                max = sum_val
 
     print(f'#{tc} {max}')
